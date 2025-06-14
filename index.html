@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Uploader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Upload Image</h2>
+    <input type="file" id="imageInput" accept="image/*"/>
+    <button onclick="uploadImage()">Upload</button>
+
+    <div id="loader" class="loader hidden">Uploading...</div>
+    
+    <h3>Uploaded Images</h3>
+    <div id="imageBlock"></div>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js"></script>
+
+  <!-- App Logic -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
