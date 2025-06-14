@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 600px;
+  margin: auto;
+}
+
+#imageBlock {
+  margin-top: 20px;
+}
+
+.image-card {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.image-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.share-link {
+  margin-top: 10px;
+  display: block;
+  font-size: 0.9em;
+  color: #007bff;
+}
+  body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ccc;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#loader {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.image-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+  background: #f9f9f9;
+}
+
+.image-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.share-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+.copy-button {
+  background: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.copy-button:hover {
+  background: #1e7e34;
+}
